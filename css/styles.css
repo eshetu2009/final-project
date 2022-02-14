@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: auto;
+  border: url;
   
   
 
@@ -98,7 +99,9 @@ form{
   border-bottom: 1px solid gray;
   color: #fff;
   font-size:18px;
+  margin-left: 100px;
   margin-bottom:16px
+  
 }
 input{
   height: 45px;
@@ -138,6 +141,22 @@ form .submit :hover{
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+.v{
+  float:right;
+  margin-top: 200px;
+}
+.y{
+  float: right;
+ 
+}
+.u {
+  font-size: 100px;
+  list-style: none;
+  text-decoration: none;
+}
+.u li a{
+  text-decoration:overline;
 }
 
 
@@ -189,10 +208,8 @@ form .submit :hover{
   }
   
   /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+  
+  
   .fa-linkedin{
        background: #3B5998;
     color: white;
@@ -202,3 +219,88 @@ form .submit :hover{
       width: 200px;
       font-optical-sizing: 50px; */
   }
+  .title {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.c1{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.pa{
+  margin-left: 500px;
+  display: contents block;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+h1 ,h2 ,h3{
+  text-align: center;
+}
+.i{
+  float:right;
+  margin-right: 300px;
+}
+.add{
+ 
+  /* margin-left: 400px */
+  background: linear-gradient( rgb(222, 227, 228),hsla(240, 100%, 29%, 0.5)),url(../img/addis.03e6dfaa.jpg);
+  /* float: right; */
+  height: 1000px;
+  width: 10100px;
+  margin-bottom: 0px;
+  
+}
+.a{
+  float: right;
+  
+}
+.m{
+  position: absolute;
+margin-top: 60px;
+  
+  height: 25%;
+  width: 60%;
+/* }
+.al{
+  float: right;
+  margin-bottom: 50px; */
+
+/* }
+.index{
+  margin: 0;
+  padding: 500px;
+  background: linear-gradient( rgb(222, 227, 228),hsla(240, 100%, 29%, 0.5)),url(../img/WhatsApp\ Image\ 2022-02-12\ at\ 12.25.34\ PM.jpeg);
+   
+   */
+    /* background-size:cover; */
+    /* background-position: center; */
+    /* foont-family:sans-serif */
+
+}
+.r{
+  float: right;
+margin-right: 200px;
+}
+.s{
+  float: center;
+  margin-left: 700px;
+  background-color: rgb(15, 175, 0);
+}
+.ph{
+  background-color: #f44336;
+}
+
+
+/* .cl {
+  display: block;
+  display: inline;
+  text-align: center;
+  margin-block-start:1em ;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 10px; */
+/* } */
