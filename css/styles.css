@@ -1,40 +1,46 @@
+/* * and body applay all the page/body */ 
+/* when we call we do not use . we just call body,* */
+
 *{
   margin: 0;
   padding: auto;
-  border: url;
-  
-  
+}
+body{
+	font-size: 20px; 
+	font-family: 'Times New Roman', Times, serif
+}
+image{
+  margin-bottom: 100px;
 
 }
+/* this is the nave and the head part style */
 
-
-
-.head{
+.header-wrapper {
 background: black; 
 color: #fff;
 font-weight: 200;
-/* font-size: 0.75em;	 */
-  font-size: 20px;
+font-size: 20px;
 }
-.head ul{
+.header-wrapper  ul{
 display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
-}
+  
+} 
 .h {
   width: 980px;
 padding: 0 10px;
 margin: 0 auto;
-}
-.head .h ul  li a {
+} 
+.header-wrapper  .h ul  li a {
 text-decoration: none;
   /* line */
 color: #fff;}
-  .head ul {
+  .header-wrapper  ul {
       list-style: none;
       /* dot */
   }
-  .head .h ul  li {
+  .header-wrapper  .h ul  li {
       display: inline-block;
     padding: 14px 0 8px;
     height: 25px;
@@ -42,23 +48,11 @@ color: #fff;}
     
   }
   
-.head .h  ul  li:hover {
+.header-wrapper  .h  ul  li:hover {
 opacity: 1;
 }
+/* .contact-form */
 
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
 .hall {
   margin: 0;
   padding: 500px;
@@ -66,11 +60,7 @@ opacity: 1;
   background: linear-gradient( rgb(6, 196, 248),hsla(240, 25%, 92%, 0.5)),url(../img/img/img.png);
   background-size:cover;
   background-position: center;
-  foont-family:sans-serif
-}
-image{
-  margin-bottom: 100px;
-
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .contact{
   margin: top 100px; 
@@ -119,36 +109,37 @@ form .submit :hover{
   background-color: #f44336;
   cursor: pointer;
 }
-/* .f{
-  float:center;
-  margin : left 100px;
-  display: flex;
-
-  margin-top: -800px ;
-  padding-top: 1090px;
-} */
 
 
 /* Set a specific color for each brand */
-
+/* social media */
 /* Facebook */
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
 .v{
   float:right;
   margin-top: 200px;
 }
-.y{
-  float: right;
- 
+/* home page */
+.y  {
+  
+  float:center;
+  
+  display: flex;
+margin-left: 300px;
+
+  /* float: right; */
+}
+.d{
+  
+  float:center;
+  
+  display: flex;
+margin-left: 300px;
+
 }
 .u {
   font-size: 100px;
@@ -158,17 +149,56 @@ form .submit :hover{
 .u li a{
   text-decoration:overline;
 }
+  .title {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.c1{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+h1 ,h2 ,h3{
+  text-align: center;
+}
+ /* about me page */
+.i{
+  float:right;
+  margin-right: 300px;
+}
+.add{
+ 
+  background: linear-gradient( rgb(222, 227, 228),hsla(240, 100%, 29%, 0.5)),url(../img/addis.03e6dfaa.jpg);
+  
+  height: 1000px;
+  width: 10100px;
+  margin-bottom: 0px;
+  
+}
 
+.pa{
+  margin-left: 500px;
+  display: contents block;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.a{
+  float: right;
+  
+}
+.ph{
+  background-color: #f44336;
+}
+/* footer */
+.footer{
+  float:center;
+  
+  display: flex;
+margin-left: 300px;
 
-
-
-
-
-
-
-
-
-
+}
 
 .fa-brands {
    
@@ -177,17 +207,6 @@ form .submit :hover{
   width: 50px;
   text-align: center;
   text-decoration: none;
-  
-  /* Add a hover effect if you want */
-  .fa-brands:hover{
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  
-  
   }
 
   .fa-facebook {
@@ -207,100 +226,38 @@ form .submit :hover{
        opacity: 1px;
   }
   
-  /* Twitter */
-  
-  
   .fa-linkedin{
        background: #3B5998;
     color: white;
-      /* background: #3B5998;
-      color: aliceblue;
-      height: 100px;
-      width: 200px;
-      font-optical-sizing: 50px; */
   }
-  .title {
-    position: relative;
-    text-transform: capitalize;
-    font-weight: 600;
-    padding-bottom: 25px;
-    text-align: center;
-}
-.c1{
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-.pa{
-  margin-left: 500px;
-  display: contents block;
-  font-size: large;
-  font-family: 'Times New Roman', Times, serif;
-}
-h1 ,h2 ,h3{
-  text-align: center;
-}
-.i{
-  float:right;
-  margin-right: 300px;
-}
-.add{
- 
-  /* margin-left: 400px */
-  background: linear-gradient( rgb(222, 227, 228),hsla(240, 100%, 29%, 0.5)),url(../img/addis.03e6dfaa.jpg);
-  /* float: right; */
-  height: 1000px;
-  width: 10100px;
-  margin-bottom: 0px;
   
-}
-.a{
-  float: right;
-  
-}
 .m{
   position: absolute;
 margin-top: 60px;
   
   height: 25%;
   width: 60%;
-/* }
-.al{
-  float: right;
-  margin-bottom: 50px; */
 
-/* }
-.index{
-  margin: 0;
-  padding: 500px;
-  background: linear-gradient( rgb(222, 227, 228),hsla(240, 100%, 29%, 0.5)),url(../img/WhatsApp\ Image\ 2022-02-12\ at\ 12.25.34\ PM.jpeg);
-   
-   */
-    /* background-size:cover; */
-    /* background-position: center; */
-    /* foont-family:sans-serif */
 
 }
 .r{
-  float: right;
-margin-right: 200px;
+  background-color: rgb(15, 175, 0);
+  /* float: right; */
+/* margin-right: 200px; */
 }
+
 .s{
-  float: center;
-  margin-left: 700px;
+  /* float: center; */
+  /* margin-left: 700px; */
   background-color: rgb(15, 175, 0);
 }
-.ph{
-  background-color: #f44336;
-}
+
+ .f{
+  float:center;
+  
+  display: flex;
+margin-left: 300px;
 
 
-/* .cl {
-  display: block;
-  display: inline;
-  text-align: center;
-  margin-block-start:1em ;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  margin-left: 10px; */
-/* } */
+} 
+
